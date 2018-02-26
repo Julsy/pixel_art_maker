@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Pixel Art Maker</title>
+  <!--  Styles  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.processed.css">
+</head>
+
+<body>
+  <h1 class="title border">Lab: Pixel Art Maker</h1>
+  <div class="settings border">
+    <form id="sizePicker">
+      <label for="inputHeight">Grid Height:</label>
+      <input id="inputHeight" type="number" class="input" name="height" min="1" placeholder="10" size="4" required>
+      <label for="inputWidth">Grid Width:</label>
+      <input id="inputWidth" type="number" class="input" name="width" min="1" placeholder="10" size="4" required>
+      <input type="submit" id="submit">
+    </form>
+    <label for="colorPicker">Color:</label>
+    <input class="jscolor {hash:true} input" id="colorPicker" value="48CF19">
+  </div>
+  <div class="settings border">
+    <h3>Design Canvas</h3>
+    <table id="designCanvas">
+    </table>
+  </div>
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts/design.js"></script>
+  <script src="scripts/jscolor.js"></script>
+</body>
+
+</html>

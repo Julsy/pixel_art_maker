@@ -1,0 +1,77 @@
+body {
+  font: normal 18px/1.5 "Lato", sans-serif;
+  text-align: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS14fAb-uJ_cAn0lo46kn5lhKqKIo6DjQIhygi43Oj3vgAPByapvw);
+}
+
+form {
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+
+h1 {
+  font-family: Monoton;
+  font-size: 80px;
+  margin: 0.2em;
+}
+
+.title {
+  background: #fdfcf1;
+}
+
+.settings {
+  background: #fdfcf1;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.border {
+  border: 3px dashed black;
+  border-radius: 3px;
+  margin: 10px auto;
+}
+
+.input {
+  width: 6em;
+  padding: 5px;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+table,
+tr,
+td {
+  border: 1px inset;
+  background: LightGray;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: black;
+  /* Green */
+  color: white;
+  display: inline;
+  padding: 5px 10px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
